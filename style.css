@@ -1,0 +1,205 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background: url(img/WhatsApp\ Image\ 2023-01-25\ at\ 12.17.54.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    bottom: 10px;
+}
+
+.navbar{
+    width: 500px;
+    float: left;
+    height: 120px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 300px;
+    width: 100px;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 32px;
+    margin-top: 2px;
+    font-size: 16px;
+}
+
+ul li:hover{
+    color: orangered;
+}
+
+.content{
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    color: orangered;
+    position: relative;
+    font-family: Arial;
+    font-weight: bold;
+    background-color: #ffff99;
+    border-radius: 40px;
+    left: 10px;
+    top: 100px;
+}
+
+.contnet h1{
+    color: orangered;
+    width: 35px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.content .paragraf{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content .more{
+    width: 180px;
+    height: 40px;
+    background: orangered;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+}
+.more:hover{
+    background-color: black;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: #ffff99;
+    position: absolute;
+    left: 970px;
+    border-radius: 10px;
+    padding: 25px;
+    bottom: .1vh;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: orange;
+    margin: 2px;
+    padding: 7px;
+}
+.form input{
+    width: 200px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orange;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 14px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+i{
+    color: black;
+    left: 10px;
+    display: flex;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: black;
+}
+.btn{
+    width: 240px;
+    height: 40px;
+    background: orange;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: black;
+}
+.form .link{
+    font-family: Arial;
+    text-align: center;
+    padding-top: 9px;
+    font-size: 12px;
+    color: orange;
+}
+.login{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: Arial Helvetica sans-serif;
+    background-color: orange;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+}
+.login:hover{
+    background-color: black;
+}
+pre{
+    margin-top: 15px;
+    color: gray;
+    font-weight: bold;
+    text-align: center;
+}
+.social a i{
+    text-align: center;
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+    margin-left: 11px;
+    margin-top: 17px;
+}
+.social:hover{
+    color: black;
+}
+.footer{
+    padding: 0px 2%;
+    position: fixed;
+    left: 0px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #f8efba;
+    color: gray;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.footer a{
+    margin-left: 80px;
+    margin-top: 25px;
+    transition: all .6s ease-in-out;
+}
+.footer nav a{
+    color: black;
+    text-decoration: none;
+}
+.footer p{
+    font-size: 14px;
+    float: left;
+    margin-left: 210px;
+    margin-top: 10px;
+}
